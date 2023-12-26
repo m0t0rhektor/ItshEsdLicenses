@@ -1,0 +1,11 @@
+{% block sw_product_detail_content_tabs_reviews %}
+
+	{# keeping original tab #}
+	{% parent %}
+
+	{# Adding own tab #}
+	<sw-tabs-item :route="{ name: 'sw.product.detail.esd', params: { id: $route.params.id } }" title="Esd">
+		ESD
+	</sw-tabs-item>
+
+{% endblock %}

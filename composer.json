@@ -1,0 +1,27 @@
+{
+    "name": "esd-licensces/itsh-esd-licenses",
+    "description": "Itsh Esd Licenses",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "6.5.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "EsdLicensces\\ItshEsdLicenses",
+        "label": {
+            "de-DE": "Esd Multidownloads und Lizenzverwaltungsplugin von It-Service-Haus",
+            "en-GB": "Esd Multidownloads and keys management plugin by It-Service-Haus"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "EsdLicensces\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EsdLicensces\\Tests\\": "tests/"
+        }
+    }
+}
