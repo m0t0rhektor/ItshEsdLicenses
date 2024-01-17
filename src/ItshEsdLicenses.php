@@ -13,7 +13,7 @@ class ItshEsdLicenses extends Plugin
 {
     public function install(InstallContext $installContext): void
     {
-        // Do stuff such as creating a new payment method
+        
     }
 
     public function uninstall(UninstallContext $uninstallContext): void
